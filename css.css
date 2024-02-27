@@ -1,0 +1,10 @@
+body{
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+img{
+    height: 400px;
+    margin-left: 35%;
+    margin-top: 8%;
+}

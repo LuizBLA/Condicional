@@ -1,0 +1,40 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1557682257-2f9c37a3a5f3?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 4%;
+    font-size: 90px;
+}
+
+p {
+    text-align: center;
+    font-size: 50px;
+}
+
+.formulario {
+    text-align: center;
+}
+
+.ss {
+    position: absolute;
+    top: 70%;
+    left: 45.5%;
+    height: 50px;
+    width: 150px;
+    font-size: 40px;
+    border-radius: 10px;
+}
+
+#idadeinput{
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    left: 45.3%;
+    top: 50%;
+    border-radius: 10px;
+    font-size: 30px;
+}

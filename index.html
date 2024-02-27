@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Legal</title>
+</head>
+<body>
+    
+<div class="formulario" >
+    <h1>Entre no Nosso site</h1>
+    <p>Por precausão digite sua idade</p>
+    <input type="number" name="" id="idadeinput" >
+    <button onclick="funny()" class="ss">Entrar</button>
+</div>
+
+<script>
+    function funny() {
+        var idade = parseInt ( document.getElementById('idadeinput')).value;
+
+        if(idade >= 18){
+            window.location.href = 'maior.html';
+        }
+        else {
+            window.location.href = 'menor.html';
+        }
+    }
+</script>
+
+</body>
+</html>
